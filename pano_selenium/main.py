@@ -26,26 +26,20 @@ choose_file.send_keys('/home/michaelc/Downloads/' + filename)
 time.sleep(5)
 py_img = driver.find_element(By.XPATH, '//a[@title="py"]')
 driver.execute_script("arguments[0].click();", py_img)
-# py_img.click()
-time.sleep(5)
+
 nx_img = driver.find_element(By.XPATH, '//a[@title="nx"]')
 driver.execute_script("arguments[0].click();", nx_img)
-# nx_img.click()
-time.sleep(5)
+
 pz_img = driver.find_element(By.XPATH, '//a[@title="pz"]')
 driver.execute_script("arguments[0].click();", pz_img)
-# pz_img.click()
-time.sleep(5)
+
 px_img = driver.find_element(By.XPATH, '//a[@title="px"]')
 driver.execute_script("arguments[0].click();", px_img)
-# px_img.click()
-time.sleep(5)
+
 nz_img = driver.find_element(By.XPATH, '//a[@title="nz"]')
 driver.execute_script("arguments[0].click();", nz_img)
-# nz_img.click()
-time.sleep(5)
+
 ny_img = driver.find_element(By.XPATH, '//a[@title="ny"]')
 driver.execute_script("arguments[0].click();", ny_img)
 
-# ny_img.click()
 print('Complete')
